@@ -11,13 +11,19 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
     "axios": "^1.2.1",
+    "canvasjs": "^1.8.3",
+    "faker": "^6.6.6",
     "react": "^18.2.0",
+    "react-chartjs-2": "^5.0.1",
     "react-dom": "^18.2.0",
     "react-google-autocomplete": "^2.7.1",
     "react-redux": "^8.0.5",
-    "styled-components": "^5.3.6"
+    "styled-components": "^5.3.6",
+    "sunrise-sunset-js": "^2.2.1"
   },
   "devDependencies": {
+    "@types/canvasjs": "^1.9.7",
+    "@types/faker": "^6.6.9",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@types/react-places-autocomplete": "^7.2.9",
@@ -25,6 +31,7 @@
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
     "@vitejs/plugin-react": "^2.2.0",
+    "canvasjs-react-charts": "^1.0.5",
     "eslint": "8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",

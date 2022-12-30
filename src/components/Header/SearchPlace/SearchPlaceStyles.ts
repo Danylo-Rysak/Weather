@@ -6,7 +6,7 @@ export const SearchPlaceContainer = styled.div`
   order: 2;
   & #input {
     height: 50px;
-    width: 302px;
+    width: 239px;
     border-radius: 30px;
     padding-left: 54.84px;
     border: 1px solid silver;

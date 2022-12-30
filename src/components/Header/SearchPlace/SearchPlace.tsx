@@ -7,6 +7,7 @@ import {
 } from '../../../services/store/slices/weatherSlice';
 import { SearchImg, SearchPlaceContainer } from './SearchPlaceStyles';
 import search from '@assets/svg/search.svg';
+import { requestData } from '../../../services/store/thunks/requestData';
 
 const apiKey = 'AIzaSyCF89WAav8Pav4OGSENK4WuxBksJGbVto8';
 
@@ -24,7 +25,7 @@ export const SearchPlace = () => {
           dispatch(setPlaceName(formatted_address));
           dispatch(setLatitude(geometry?.location?.lat()));
           dispatch(setLongitude(geometry?.location?.lng()));
-          console.log(place.html_attributions);
+          dispatch(requestData());
         }}
       />
     </SearchPlaceContainer>
